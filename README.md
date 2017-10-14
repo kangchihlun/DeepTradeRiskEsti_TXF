@@ -14,6 +14,7 @@ https://github.com/happynoom/DeepTrade
 \Anaconda35\Lib\site-packages\keras
 
 模型訓練： start_train.bat (可修改裡面參數，0 為model0，只輸出做多訊號，1 為 model1，只輸出做空訊號 )
+模型驗證： start_predict.bat ，因為train完模型輸出名稱一律叫做output.30，要自己改名成model0_positive 或是 model1_negative
 
 
 dataset download:
