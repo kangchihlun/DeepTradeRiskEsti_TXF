@@ -1,0 +1,1 @@
+python gossip.py train 1
