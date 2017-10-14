@@ -1,5 +1,6 @@
 # DeepTradeRiskEsti_TXF
 Trading Strategy Using Keras/Tensorflow LSTM and Custom Loss Function
+
 使用LSTM來做台指期預測，自定義損失函數
 
 損失函數概念參考自
