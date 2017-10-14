@@ -6,6 +6,8 @@ Trading Strategy Using Keras/Tensorflow LSTM and Custom Loss Function
 損失函數概念參考自
 https://github.com/happynoom/DeepTrade
 
+用意在最大化收益率。
+
 但因為原始的概念是用在操作股票，reLU激勵之後只會有正數，如果用在台指期上就變成只會做多了
 因此在keras 的activations 下面自己新增了一個 relu_inverse 函數，截斷x為正的情形，變成只輸出負數
 (請參考__keras_modifications__) ,修改位置位於
